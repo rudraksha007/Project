@@ -65,7 +65,7 @@ function switchRule(n){
 
 navBar = `<div class="nav-menu">
         <ul>
-            <li><a href="#">FACULTY</a>
+            <li><a href="/Faculty/faculty.html">FACULTY</a>
             </li>
             <li><a href="#">ACTIVITIES</a>
                 <div class="dropdown">
