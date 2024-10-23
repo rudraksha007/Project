@@ -79,16 +79,7 @@ navBar = `<div class="nav-menu">
                     </div>
                 </div>
             </li>
-            <li><a href="#">KINDERGARTEN</a>
-                <div class="dropdown">
-                    <div class="dropdown-content">
-                        <a href="#">Infrastructure</a>
-                        <a href="#">Activities</a>
-                        <a href="#">Admission Criteria</a>
-                        <a href="#">Tours and Recreations</a>
-                    </div>
-                </div>
-            </li>
+            <li><a href="#">SCHOOL TOUR</a></li>
             <li><a href="#">STUDENT'S PORTAL</a>
                 <div class="dropdown">
                     <div class="dropdown-content">
@@ -116,7 +107,6 @@ navBar = `<div class="nav-menu">
                         <a href="#">President's Message</a>
                         <a href="#">Principal's Message</a>
                         <a href="#">Accreditation and Certification</a>
-                        <a href="#">Infrastructure</a>
                         <a href="#">Contact Us</a>
                     </div>
                 </div>
