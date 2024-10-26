@@ -79,7 +79,7 @@ navBar = `<div class="nav-menu">
                     </div>
                 </div>
             </li>
-            <li><a href="#">SCHOOL TOUR</a></li>
+            <li><a href="/Tour/tour.html">SCHOOL TOUR</a></li>
             <li><a href="#">STUDENT'S PORTAL</a>
                 <div class="dropdown">
                     <div class="dropdown-content">
