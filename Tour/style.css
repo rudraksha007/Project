@@ -24,7 +24,7 @@
     height: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    transition: transform 1s;
+    transition: transform 0.5s;
 }
 .rule-control{
     margin: 0;

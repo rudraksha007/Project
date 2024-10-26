@@ -48,6 +48,10 @@ function changeView(parent, dir){
     if (pos[parent.id]==null){
         pos[parent.id] = 0;
     }
+    x = imgs.item(imgs.length-1).getBoundingClientRect();
+    if(dir==-1 && x.left+x.width<=parent.clientWidth){
+        return;
+    }
     if(pos[parent.id]+dir<=0 && pos[parent.id]+dir> -imgs.length){
         pos[parent.id]+=dir;
         for (let i = 0; i < imgs.length; i++) {
