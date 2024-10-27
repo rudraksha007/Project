@@ -1,7 +1,7 @@
 .mySlideImg {
     vertical-align: middle;
-    height: auto;
-    width: 100vw;
+    width: auto;
+    height: 60vh;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -11,13 +11,12 @@
 }
 
 #slideshow-container {
-    width: 100%;
-    height: auto;
+    height: 60vh;
     min-width: 500px;
+    width: auto;
     display: flex;
     position: relative;
     overflow-x: hidden;
-    /* transition: all 0.5s; */
 }
 
 .dot {
