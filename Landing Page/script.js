@@ -91,7 +91,7 @@ navBar = `<div class="nav-menu">
                     <li><a href="#">ACADEMICS</a>
                         <div class="dropdown">
                             <div class="dropdown-content">
-                                <a href="#">Circulars</a>
+                                <a href="../Circulars/circular.html">Circulars</a>
                                 <a href="#">Admission Criteria</a>
                                 <a href="#">Examinations</a>
                             </div>
