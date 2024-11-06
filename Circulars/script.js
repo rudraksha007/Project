@@ -19,7 +19,7 @@ function load(){
                 document.getElementById('dataTable').appendChild(a)
 
                 a = document.createElement('div');
-                a.innerHTML = `<a href="${data[x][1]}">Link to Notice</a>`
+                a.innerHTML = `<a href="docs/${data[x][1]}">Link to Notice</a>`
                 document.getElementById('dataTable').appendChild(a)
                 i++;
             })

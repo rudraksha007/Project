@@ -62,7 +62,6 @@ function switchRule(n) {
     document.getElementById('rules').style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
 }
 
-
 navBar = `<div class="nav-menu">
                 <ul>
                     <li><a href="/Faculty/faculty.html">FACULTY</a>
@@ -92,7 +91,7 @@ navBar = `<div class="nav-menu">
                         <div class="dropdown">
                             <div class="dropdown-content">
                                 <a href="../Circulars/circular.html">Circulars</a>
-                                <a href="#">Admission Criteria</a>
+                                <a href="../Admission/admission.html">Admission Criteria</a>
                                 <a href="#">Examinations</a>
                             </div>
                         </div>
