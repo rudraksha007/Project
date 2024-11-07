@@ -7,11 +7,6 @@ function change() {
     window.removeEventListener('scroll', change);
 
     setTimeout(() => {
-        // x.style.width = 0;
-        // this.document.getElementById('logo').style.width = '10vh';
-        // this.document.getElementById('logo').style.height = '10vh';
-        // document.getElementById('container').style.height = 'fit-content';
-        // document.getElementById('container').style.marginBottom = '20px';
         document.getElementById('nav2').disabled = false;
         document.getElementById('nav1').disabled = true;
         
