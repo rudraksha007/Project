@@ -34,3 +34,15 @@
 .dot:hover {
     background-color: #717171;
 }
+@media (max-width: 650px){
+    #slideshow-container{
+        height: auto;
+        width: 80vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .mySlideImg{
+        height: auto;
+        width: 80vw;
+    }
+}
