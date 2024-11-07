@@ -16,10 +16,16 @@
     column-gap: 30px;
 
 }
+@media(max-width:900px){
+    .collection{
+        flex-direction: column;
+    }
+}
 .collection div{
     height: 100%;
+    overflow: hidden;
+    width: 100%;
     display: flex;
-    overflow-x: hidden;
 }
 .img{
     height: 100%;

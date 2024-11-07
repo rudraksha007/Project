@@ -3,34 +3,18 @@ body{
     margin: 0;
     font-family: "Roboto";
 }
-br{
-    margin: 0;
-}
 body *{
     margin: 0;
 }
-#container {
+#transition{
+    position: absolute;
+    z-index: 5;
+    height: 110vh;
     width: 100%;
-    height: 100vh;
-    display: flex;
     background-color: white;
-    transition: all 0.5s;
+    opacity: 0;
+    transition: opacity 0.4s;
 }
-
-#logo {
-    transition: all 0.5s;
-    height: 90vh;
-    width: 90vh;
-    min-width: 100px;
-    min-height: 100px;
-    margin: 10px;
-}
-
-#name {
-    margin: auto;
-    transition: all 0.5s;
-}
-
 #school-title {
     font-size: 4em;
     color: #002868;

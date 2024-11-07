@@ -17,7 +17,6 @@
     display: flex;
     position: relative;
     overflow-x: hidden;
-    /* transition: all 0.5s; */
 }
 
 .dot {

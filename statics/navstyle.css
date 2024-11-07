@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Roboto";
+    width: 100%;
 }
 #empty{
     height: 110vh;
@@ -27,7 +28,8 @@ body{
 
 #name {
     margin: auto;
-    height: 10vh;
+    transition: all 0.5;
+    height: max(10vh, fit-content);
     width: calc(100vw - 10vh);
 }
 .nav-menu {
@@ -35,7 +37,7 @@ body{
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    height: 10vh;
+    height: max(10vh, fit-content)
 }
 
 .nav-menu ul {
@@ -51,7 +53,8 @@ body{
     position: relative;
     font-family: "Roboto";
     font-size: 15px;
-    width: 11vw;
+    width: min(11vw, fit-content);
+    min-width: 100px;
 }
 
 .nav-menu li:hover a:hover {
@@ -103,6 +106,8 @@ body{
     margin: 0;
 }
 
-@media (max-width:950px){
-    
+@media (max-width:800px){
+    .nav-menu ul{
+        flex-wrap: wrap;
+    }
 }

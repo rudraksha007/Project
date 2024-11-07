@@ -12,11 +12,22 @@
 
 #slideshow-container {
     height: 60vh;
-    min-width: 500px;
     width: auto;
     display: flex;
     position: relative;
     overflow-x: hidden;
+}
+@media (max-width: 650px){
+    #slideshow-container{
+        height: auto;
+        width: 80vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .mySlideImg{
+        height: auto;
+        width: 80vw;
+    }
 }
 
 .dot {

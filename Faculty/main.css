@@ -60,7 +60,6 @@ txt{
     background-color: rgba(0, 0, 0, 0.6);
     opacity: 0;
     z-index: -10;
-    /* display: none; */
     transition: opacity 0.5s;
 }
 #popupCont{
@@ -91,6 +90,14 @@ txt{
     margin-right: 20px;
     overflow-y:auto;
     max-height: 80%;
+}
+@media(max-width:600px){
+    #popupCont h1{
+        margin-top: 60px;
+    }
+    #facs{
+        max-height: 70%;
+    }
 }
 .heading{
     background-color: #2a5369;

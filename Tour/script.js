@@ -25,14 +25,14 @@ function load(parent, i) {
             left = new Image(50);
             left.src = '../statics/arrow.png';
             left.classList.add('rule-control', 'left');
-            left.addEventListener('click', ()=>{changeView(parent, -1)});
+            left.addEventListener('click', ()=>{changeView(parent, 1)});
             p.appendChild(left);
 
             right = new Image(50);
             right.src = '../statics/arrow.png';
             right.classList.add('rule-control', 'right');
             right.id = 'right';
-            right.addEventListener('click', ()=>{changeView(parent, 1)})
+            right.addEventListener('click', ()=>{changeView(parent, -1)})
             p.appendChild(right);
         }
     });
@@ -44,6 +44,7 @@ for (let i = 0; i < divs.length; i++) {
 }
 pos = {}
 function changeView(parent, dir){
+    console.log('b')
     imgs = document.getElementsByClassName(parent.id);
     if (pos[parent.id]==null){
         pos[parent.id] = 0;
